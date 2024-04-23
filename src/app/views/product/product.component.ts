@@ -30,7 +30,7 @@ export class ProductComponent implements OnInit {
     if (event != null) {
       event.preventDefault();
     }
-    if (id > 0) {
+    if (Number(id) > 0) {
       this.productService.get(id).subscribe(res => {
         this.product = res.product;
         this.modal.show();

@@ -223,6 +223,8 @@ const routes: Routes = [
     AppFooterModule,
     AppSidebarModule,
     ToastrModule.forRoot(),
+    FormsModule,
+    AppHeaderModule
   ],
   declarations: [
     AppComponent,
